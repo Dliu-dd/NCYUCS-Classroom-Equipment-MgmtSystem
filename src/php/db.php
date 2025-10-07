@@ -2,13 +2,13 @@
 //啟動 session 等下要來儲存 連線後的資訊，前面加上 @ 是為了要讓此方法執行時，若有錯誤訊息不要顯示。
 @session_start();
 //先設定資料庫資訊，主機通常都用本機
-$host = 'localhost';
+$host = 'db';
 //以root管理者帳號進入資料庫
-$dbuser = 'id21678063_root';
+$dbuser = 'user';
 //root的資料庫密碼
-$dbpw = 'Php12251225!';        //之後到web000改成Php12251225!
+$dbpw = 'pass';        //之後到web000改成Php12251225!
 //登入後要使用的資料庫
-$dbname = 'id21678063_ncyucsie_db';      //之後到web000改成 id21678063_ncyucsie_db
+$dbname = 'LAMP';      //之後到web000改成 id21678063_ncyucsie_db
 
 //宣告一個 link 變數，並執行連結資料庫函式 mysqli_connect()，連結結果會帶入 link 當中
 $_SESSION['link'] = mysqli_connect($host, $dbuser, $dbpw, $dbname);

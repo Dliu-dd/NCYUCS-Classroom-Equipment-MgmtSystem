@@ -1,8 +1,8 @@
 <?php
-$server = 'localhost';
-$dbusername = 'id21678063_root';
-$dbpassword = 'Php12251225!';
-$dbname = 'id21678063_ncyucsie_db';
+$server = 'db';
+$dbusername = 'user';
+$dbpassword = 'pass';
+$dbname = 'LAMP';
 
 $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 

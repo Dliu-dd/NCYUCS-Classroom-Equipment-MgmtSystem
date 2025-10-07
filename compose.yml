@@ -1,0 +1,17 @@
+services:
+  php_apache:
+    build: .
+    container_name: php_apache
+    ports:
+      - 18000:80
+    volumes:
+      - ./src:/var/www/html
+
+  db:
+    image: mariadb
+    container_name: db
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: LAMP
+      MARIADB_USER: user
+      MARIADB_PASSWORD: pass
