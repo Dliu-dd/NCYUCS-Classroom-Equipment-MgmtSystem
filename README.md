@@ -4,10 +4,10 @@
 
 ## 頁面
 
-### 公告頁面
-  ![](img/announce.png)
 ### 登入頁面
   ![](img/login.png)
+### 最新公告頁面
+  ![](img/announce.png)
 ### 借用紀錄頁面 (使用者)
   ![](img/borrow-1.png)
   ![](img/borrow-2.png)
